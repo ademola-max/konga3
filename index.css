@@ -128,14 +128,15 @@ header .head{
         height: auto;
     }
 }
-@media screen and (max-width:400px){
+@media screen and (max-width:700px){
     .item1-img{
-        width: 330px;
+        width: 90vw;
         height: 350px;
+        margin: auto;
         
     }
     .item1-img img{
-        width: 100%;
+        width: 80%;
         height: auto;
     }
 }    
@@ -469,6 +470,9 @@ header .head{
     .sub-fifth{
         width: 80%;
         margin: auto;
+    }
+    .fifth-section{
+        display: none;
     }
 }
 @media screen and (max-width:400px) {
